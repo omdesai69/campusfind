@@ -34,11 +34,9 @@ CampusFind is an end-to-end, type-safe full-stack web application designed to so
 
 ### 📸 Screenshots
 
-*(Replace these placeholder paths with actual screenshots of your application)*
-
-| Homepage & Search | Compare Tool | Predictor Flow |
-| :---: | :---: | :---: |
-| <img src="docs/home-screenshot.png" alt="Homepage UI" width="300" /> | <img src="docs/compare-screenshot.png" alt="Compare UI" width="300" /> | <img src="docs/predictor-screenshot.png" alt="Predictor UI" width="300" /> |
+| Homepage & Search | Compare Tool | Predictor Flow | College Detail |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/home-screenshot.png" alt="Homepage UI" width="250" /> | <img src="docs/compare-screenshot.png" alt="Compare UI" width="250" /> | <img src="docs/predictor-screenshot.png" alt="Predictor UI" width="250" /> | <img src="docs/detail-screenshot.png" alt="College Detail UI" width="250" /> |
 
 ---
 
@@ -79,6 +77,7 @@ CampusFind avoids the traditional "REST API + Swagger" bloat by utilizing a **Mo
 /
 ├── api/                  # Vercel Serverless Function entry point
 ├── db/                   # Database schemas (colleges, courses, reviews) & migrations
+├── docs/                 # Documentation and screenshots
 ├── scripts/              # Utility scripts (seeders, image scrapers)
 ├── server/               # tRPC routers, API middleware, and DB connection logic
 ├── src/                  # React Frontend (Components, Pages, Hooks, Styles)
@@ -98,7 +97,7 @@ Follow these steps to run the CampusFind application on your local machine.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/campusfind.git
+git clone https://github.com/omdesai69/campusfind.git
 cd campusfind
 ```
 
