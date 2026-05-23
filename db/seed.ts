@@ -241,7 +241,7 @@ async function seed() {
   console.log("Cleared existing data");
 
   console.log("Reading CSV file...");
-  const filePath = path.resolve(process.cwd(), "top_200_india_colleges_deep_research.csv");
+  const filePath = path.resolve(process.cwd(), "db", "data", "top_200_india_colleges_deep_research.csv");
   const workbook = xlsx.readFile(filePath);
   const sheetName = workbook.SheetNames[0];
   const data = xlsx.utils.sheet_to_json(workbook.Sheets[sheetName]) as any[];
