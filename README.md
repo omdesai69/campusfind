@@ -138,6 +138,17 @@ CampusFind is deployed via a modern serverless edge architecture to guarantee hi
 
 ---
 
+## 🔮 Roadmap & Future Scaling
+
+CampusFind is an actively evolving platform. As the user base grows, the architecture is designed to scale horizontally. Upcoming features and scaling initiatives include:
+
+- **Redis Caching Layer:** Implementing Upstash Redis to aggressively cache college search queries and predictor results, reducing database reads by ~80%.
+- **AI-Powered Recommendation Engine:** Integrating an embedding-based similarity search (pgvector) to recommend colleges based on multi-dimensional student profiles rather than just hard filters.
+- **User Authentication & Profiles:** Allowing students to create accounts (via Clerk), save their predicted colleges, and track admission deadlines.
+- **Microservices Migration:** As features expand, extracting the predictor algorithm and the data-scraping pipeline into isolated microservices.
+
+---
+
 <div align="center">
   <i>Built with ❤️ for a better educational future.</i>
 </div>
