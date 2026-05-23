@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="public/colleges/campus-placeholder.svg" alt="CampusFind Logo" width="120" height="120" />
   <h1>🎓 CampusFind</h1>
   <p><strong>A Modern, High-Performance College Discovery & Predictor Platform</strong></p>
 
