@@ -128,13 +128,13 @@ npm run dev
 
 ---
 
-## 🚀 Deployment
+## 🚀 Deployment & Infrastructure
 
-This application is fully configured for deployment on **Vercel**. 
+CampusFind is deployed via a modern serverless edge architecture to guarantee high availability and minimal latency for Indian students across different regions.
 
-1. Connect your GitHub repository to Vercel.
-2. In the Vercel dashboard, add the `DATABASE_URL` to your project's Environment Variables.
-3. Vercel will automatically read the `vercel.json` and `package.json` build scripts, compile the Vite frontend to the Edge, and map the `/api/` directory to Serverless Functions.
+- **Frontend & Edge Hosting:** Deployed on **Vercel's Edge Network**. Static assets are cached globally, ensuring near-instant page loads.
+- **Serverless API:** The Node.js tRPC backend runs natively on Vercel Serverless Functions, seamlessly scaling compute resources during high traffic periods without cold-boot lag.
+- **Database Connection Pooling:** Because Serverless Functions open hundreds of concurrent connections, CampusFind utilizes **Neon's PgBouncer Transaction Pooler** to safely multiplex database queries and prevent PostgreSQL connection limits from being exhausted.
 
 ---
 
