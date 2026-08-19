@@ -150,5 +150,5 @@ CampusFind is an actively evolving platform. As the user base grows, the archite
 ---
 
 <div align="center">
-  <i>Built for a better educational future.</i>
+  <i>Built for a better educational future</i>
 </div>
