@@ -30,14 +30,6 @@ CampusFind is an end-to-end, type-safe full-stack web application designed to so
 - **📱 Premium Mobile-First UI:** Inspired by industry leaders (like Careers360), featuring compact, scannable cards, horizontal swipe categories, and massive touch targets.
 - **🔒 100% Type-Safe Architecture:** The frontend React components and backend SQL queries are glued together with tRPC, ensuring zero runtime data mismatches.
 
-<br/>
-
-### 📸 Screenshots
-
-| Homepage & Search | Compare Tool | Predictor Flow | College Detail |
-| :---: | :---: | :---: | :---: |
-| <img src="docs/home-screenshot.png" alt="Homepage UI" width="250" /> | <img src="docs/compare-screenshot.png" alt="Compare UI" width="250" /> | <img src="docs/predictor-screenshot.png" alt="Predictor UI" width="250" /> | <img src="docs/detail-screenshot.png" alt="College Detail UI" width="250" /> |
-
 ---
 
 ## 🛠 Tech Stack
